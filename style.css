@@ -1,15 +1,38 @@
 body {
     background-repeat: no-repeat;
-    background-image: url("https://i.imgur.com/nA53oqb.jpeg");
-    background-size: cover;
+    background-size:  cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
 
 #Logo {
-    height: 20px;
-    width: 20PX;
+    height:120px;
+    width:180px;
+    margin-left: 40px;
 }
 
-.itens {
-    list-style: none;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #38261c;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
     text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+ul{
+    display: flex;
+    gap: 100px;
 }
