@@ -36,6 +36,18 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#imgpag1{
-    height: 100px;
+.sec1{
+    background-image: url("depositphotos_394600220-stock-photo-mexican-food-double-border-overhead.jpg");
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;                
+    width: 100%;                  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;    
+    font-family: 'Poppins', sans-serif;
+     position: relative;
 }
