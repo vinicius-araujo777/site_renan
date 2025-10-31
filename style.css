@@ -31,7 +31,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 220px;
     gap: 40px;
 }
 
@@ -39,7 +39,7 @@ body {
     text-decoration: none;
     font-size:30px;
     color: #f2a84b;
-    margin: 10px;
+    margin-left: 40px;
     font-family:"Momo Trust Display", sans-serif;
 }
 
