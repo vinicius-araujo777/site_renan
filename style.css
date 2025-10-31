@@ -76,10 +76,18 @@ body {
     font-size: 30px;
     text-align: center;
     font-family: 'Momo Trust Display', sans-serif;
+    margin-top: 50px;
 }
 
-.txt1pag2{
+.txtpag2{
     font-size: 30px;
     margin-left: 15px;
     font-style: italic;
+}
+
+.titulopag2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Momo Trust Display', sans-serif;
+    margin-top: 120px;
 }
