@@ -43,7 +43,7 @@ body {
     font-family:"Momo Trust Display", sans-serif;
 }
 
-.sec1{
+.sec1pag1{
     background-image: url(Img1Section.jpg);
     background-size: cover;      
     background-position: center;
@@ -69,5 +69,17 @@ body {
 #tituloPAG1{
     font-size: 70px;
     margin: 30px; 
+    font-style: italic;
+}
+
+#titulo1pag2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Momo Trust Display', sans-serif;
+}
+
+.txt1pag2{
+    font-size: 30px;
+    margin-left: 15px;
     font-style: italic;
 }
