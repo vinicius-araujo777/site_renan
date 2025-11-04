@@ -1,9 +1,11 @@
 body {
-    background-repeat: no-repeat;
-    background-size:  cover;
-    background-position: center;
     margin: 0;
     padding: 0;
+    background: linear-gradient(45deg, #ffeac3, #f0cda2, #ffbf71);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 .navbar{
@@ -12,13 +14,16 @@ body {
     width: 100%;
     background-color: #3f2215;
     justify-content: space-around;
+    height: 130px;
 }
 
 #logo{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 120px;
+    width: 120px;
 }
 
 #imglogo{
@@ -48,7 +53,7 @@ body {
     background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;                
+    height: 81vh;                
     width: 100%;                  
     display: flex;
     align-items: center;
@@ -92,4 +97,12 @@ body {
     text-align: center;
     font-family: 'Momo Trust Display', sans-serif;
     margin-top: 120px;
+}
+footer{
+    background-color: #3f2215;
+    color: #f2a84b;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
 }
