@@ -25,11 +25,12 @@ html, body {
     margin-bottom: 5px;
     height: 120px;
     width: 120px;
+    margin-left: auto;
 }
 
 #imglogo{
-    width: 250px;
-    height: auto;
+    width: 200px;
+    height: 120px;
     margin: 0;
 }
 
@@ -43,7 +44,7 @@ html, body {
 
 .menus{
     text-decoration: none;
-    font-size:30px;
+    font-size:25px;
     color: #f2a84b;
     margin-left: 40px;
     font-family:"Momo Trust Display", sans-serif;
@@ -73,7 +74,7 @@ html, body {
 }
 
 #tituloPAG1{
-    font-size: 70px;
+    font-size: 58px;
     margin: 30px; 
     font-style: italic;
 }
