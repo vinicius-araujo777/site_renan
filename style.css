@@ -102,7 +102,6 @@ html, body {
 }
 #apresentaçãomenu {
     padding: 25px;
-    min-height: calc(100vh - 130px - 38px);
     display: flex;
 }
 
@@ -121,3 +120,30 @@ footer{
     width: 100%;
 }
 
+
+.pratos-principais{
+    display: flex;
+    
+}
+
+.pratos-principais img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 400px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.pratos-principais h1{
+    font-size: 30px;
+    font-family: 'Momo Trust Display', sans-serif;
+    margin-left: 150px;
+}
+
+.pratos-principais h3{
+    font-size: 27px;
+    margin-left: 12px;
+    margin-top: 20px;
+    font-style: normal;
+}
