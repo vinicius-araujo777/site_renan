@@ -123,19 +123,22 @@ footer{
 #comidatxt{
     font-family: 'Momo Trust Display', sans-serif;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 50px auto 20px; 
     font-size: 48px;
     color: #3f2215;
+    display: table; 
+    padding-bottom: 2px; 
     border-bottom: 2px solid #3f2215;
 }
 
 .pratos-principais{
     display: flex;
-    gap: 50px;
+    gap: 80px;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .pratos-principais .prato{
@@ -152,5 +155,3 @@ footer{
     object-fit: cover;
     border-radius: 10px;
 }
-
-
