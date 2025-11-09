@@ -51,7 +51,7 @@ html, body {
 }
 
 .sec1{
-    background-image: url(Img1Section.jpg);
+    background-image: url('imgs site/Img1Section.jpg');
     background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
