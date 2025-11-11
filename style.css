@@ -160,6 +160,12 @@ footer{
     align-items: flex-start;
     padding: 20px;
     margin: 0 auto;
+    margin-bottom: 160px;
+}
+
+.prato{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .pratos-principais .prato{
@@ -175,6 +181,14 @@ footer{
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.texto-prato{
+    text-align: justify;
+    text-align-last: left;
+    hyphens: auto;
+    line-height: 1.4;
+    font-style: italic;
 }
 
 #bebidastxt{
@@ -201,6 +215,11 @@ footer{
     margin-bottom: 120px;
 }
 
+.drinks{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .bebidas-principais .drinks{
     display: flex;
     flex-direction: column;
@@ -214,6 +233,14 @@ footer{
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.texto-bebida{
+    text-align: justify;
+    text-align-last: left;
+    hyphens: auto;
+    line-height: 1.4;
+    font-style: italic;
 }
 
 .prato img:hover {
