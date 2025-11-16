@@ -6,6 +6,7 @@ const smallsValidade = document.querySelectorAll('.msgValidade')
 function setError(index) {
     campos[index].style.border = '2px solid red';
     smalls[index].style.display = 'block';
+    smallsValidade[index].style.display = 'none';
 }
 function removerError(index) {
     campos[index].style.border = '2px solid green';
