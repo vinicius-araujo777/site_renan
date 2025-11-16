@@ -15,7 +15,7 @@
 <body>
     <header class="navbar">
         <div>
-            <div ID="logo">
+            <div id="logo">
                 <img id="imglogo" src="imgs site/Logo-removebg-preview.png" alt="">
             </div>
         </div>
@@ -45,32 +45,34 @@
         <form id="form" class="form">
             <div class="forms">
                 <label for="username">Nome do usuário</label>
-                <input type="text" id="username" placeholder="digite seu nome de usuário...">
-                <small> mensagem de erro</small>
+                <input type="text" id="username" class="inputs required" placeholder="digite seu nome de usuário..." oninput="nameValidate()">
+                <small class="msgError"> NOME DE USUARIO DEVE TER NO MÍNIMO 3 CARACTERES </small>
+                <small class="msgValidade"> VALIDADO</small>
             </div>
 
             <div class="forms">
                 <label for="phone">Telefone</label>
-                <input type="tel" id="phone"  placeholder="XX-XXXXX-XXXX">
-                <small> mensagem de erro</small>
+                <input type="tel" id="phone" class="inputs required" placeholder="XX-XXXXX-XXXX" oninput="telefoneValidade()">
+                <small class="msgError"> ESTE CAMPO DEVE CONTER NO MÍNIMO 11 NUMEROS</small>
+                <small class="msgValidade"> VALIDADO</small>
             </div>
 
             <div class="forms">
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="digite seu email...">
-                <small> mensagem de erro</small>
+                <input type="email" id="email" class="inputs required" placeholder="digite seu email...">
+                <small class="msgError"> EMAIL NÃO VALIDADO</small>
             </div>
 
             <div class="forms">
                 <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="digite sua senha...">
-                <small> mensagem de erro</small>
+                <input type="password" id="password" class="inputs required" placeholder="digite sua senha...">
+                <small class="msgError"> A SENHA DEVE CONTER NO MÍNIMO6 CARACTERES</small>
             </div>
 
             <div class="forms">
                 <label for="password2">Confirme a senha</label>
-                <input type="password" id="password2" placeholder="digite sua senha novamente...">
-                <small> mensagem de erro</small>
+                <input type="password" id="password2" class="inputs required" placeholder="digite sua senha novamente...">
+                <small class="msgError"> A SENHA ESTÁ DIFERENTE</small>
             </div>
 
             <div class="forms">
@@ -86,5 +88,6 @@
     <footer>
         <p>&copy; 2025 - HAMBRE.  Todos os direitos reservados.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>

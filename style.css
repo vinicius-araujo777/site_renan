@@ -293,16 +293,15 @@ footer{
 }
 
 .forms label{
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     font-weight: bold;
     color: #3f2215;
 }
 
 .forms input{
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 10px;
-    border: 2px solid #3f2215;
+    border: 1px solid #3f2215;
     font-size: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -317,4 +316,20 @@ footer{
     width: 150px;
     margin: auto;
     margin-top: 30px;
+}
+
+.msgError{
+    color: red;
+    margin: 2px 0 0 1px;
+    font-size: 12px;
+    text-align: start;
+    display: none;
+}
+
+.msgValidade{
+    color: green;
+    margin: 2px 0 0 1px;
+    font-size: 12px;
+    text-align: start;
+    display: none;
 }
