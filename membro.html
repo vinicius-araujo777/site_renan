@@ -59,20 +59,23 @@
 
             <div class="forms">
                 <label for="email">Email</label>
-                <input type="email" id="email" class="inputs required" placeholder="digite seu email...">
+                <input type="email" id="email" class="inputs required" placeholder="digite seu email..." oninput="emailValidade()">
                 <small class="msgError"> EMAIL NÃO VALIDADO</small>
+                <small class="msgValidade"> VALIDADO</small>
             </div>
 
             <div class="forms">
                 <label for="password">Senha</label>
-                <input type="password" id="password" class="inputs required" placeholder="digite sua senha...">
-                <small class="msgError"> A SENHA DEVE CONTER NO MÍNIMO6 CARACTERES</small>
+                <input type="password" id="password" class="inputs required" placeholder="digite sua senha..." oninput="senhaValidade()">
+                <small class="msgError"> A SENHA DEVE CONTER NO MÍNIMO 6 CARACTERES</small>
+                <small class="msgValidade"> VALIDADO</small>
             </div>
 
             <div class="forms">
                 <label for="password2">Confirme a senha</label>
-                <input type="password" id="password2" class="inputs required" placeholder="digite sua senha novamente...">
+                <input type="password" id="password2" class="inputs required" placeholder="digite sua senha novamente..." oninput="compareSenha()">
                 <small class="msgError"> A SENHA ESTÁ DIFERENTE</small>
+                <small class="msgValidade"> VALIDADO</small>
             </div>
 
             <div class="forms">

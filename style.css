@@ -270,7 +270,7 @@ footer{
 }
 
 .header{
-    text-align: center;
+    margin-left: 41%;
     margin-bottom: 20px;
 }
 
@@ -296,6 +296,7 @@ footer{
     margin-bottom: 3px;
     font-weight: bold;
     color: #3f2215;
+    margin-left: 37px;
 }
 
 .forms input{
@@ -304,6 +305,8 @@ footer{
     border: 1px solid #3f2215;
     font-size: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin-left: 37px;
 }
 
 .form button{
@@ -324,6 +327,7 @@ footer{
     font-size: 12px;
     text-align: start;
     display: none;
+    margin-left: 37px;
 }
 
 .msgValidade{
@@ -332,4 +336,5 @@ footer{
     font-size: 12px;
     text-align: start;
     display: none;
+    margin-left: 37px;
 }
