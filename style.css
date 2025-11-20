@@ -81,7 +81,7 @@ footer{
     background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
-    height: 88vh;                
+    height: 92vh;                
     width: 100%;                  
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ footer{
 
 #tituloPAG1{
     font-size: 58px;
-    margin: 30px; 
+    margin: 25px; 
     font-style: italic;
 }
 
@@ -106,16 +106,14 @@ footer{
 }
 
 .sec2{
-    margin-top: 25px;
-    margin-bottom: 415px;
-    height: 12vh;
+    margin-bottom: 0px;
     width: 100%;
 }
 
 #pag2{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 0px;
     background-color: white;
     padding-bottom: 20px;
 }
