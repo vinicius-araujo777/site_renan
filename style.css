@@ -52,7 +52,7 @@ footer{
 
 .menus{
     text-decoration: none;
-    font-size:20px;
+    font-size:19px;
     color: #f2a84b;
     margin-left: 40px;
     font-family:"Momo Trust Display", sans-serif;
@@ -81,7 +81,7 @@ footer{
     background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
-    height: 81vh;                
+    height: 88vh;                
     width: 100%;                  
     display: flex;
     align-items: center;
@@ -92,22 +92,10 @@ footer{
     position: relative;
 }
 
-.sec2{
-    margin-top: 25px;
-    margin-bottom: 400px;
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.sec2 h1{
-    color: #3f2215;
-    font-family: "Momo Trust Display", sans-serif;
-    border-bottom:2px solid #3f2215;
-    padding-bottom: 0;
-    display: inline-block;
-
+#tituloPAG1{
+    font-size: 58px;
+    margin: 30px; 
+    font-style: italic;
 }
 
 #PAG1{
@@ -117,12 +105,42 @@ footer{
     justify-content: flex-start;
 }
 
-#tituloPAG1{
-    font-size: 58px;
-    margin: 30px; 
-    font-style: italic;
+.sec2{
+    margin-top: 25px;
+    margin-bottom: 415px;
+    height: 12vh;
+    width: 100%;
 }
 
+#pag2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#pag2 img{
+    margin-top: 30px;
+    height: 450px;
+    width: 700px;
+}
+
+#hrFuncionamento h1{
+    margin-right: 320px;
+    color: #3f2215;
+    font-family: "Momo Trust Display", sans-serif;
+    border-bottom:2px solid #3f2215;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#hrFuncionamento h3{
+    font-style: italic;
+    margin-top: 0;
+    text-align: justify;
+    margin-bottom: 8px;
+}
 
 #titulo1pag2{
     font-size: 35px;
