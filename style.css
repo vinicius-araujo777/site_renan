@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(45deg, #ffeac3, #f0cda2, #ffbf71);
+    background: linear-gradient(70deg, #ffe3ae, #ffcd8f, #f9b767);
 }
 
 ::-webkit-scrollbar { 
@@ -106,26 +106,34 @@ footer{
 }
 
 .sec2{
-    margin-bottom: 0px;
-    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 90%;
 }
 
 #pag2{
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 5%;
     display: flex;
     justify-content: space-between;
-    margin-top: 0px;
     background-color: white;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 #pag2 img{
     margin-top: 30px;
     height: 450px;
     width: 700px;
+    margin-left: 50px;
+    border-radius: 10px;
 }
 
 #hrFuncionamento h1{
-    margin-right: 320px;
+    margin-top: 30px;
+    margin-right: 120px;
     color: #3f2215;
     font-family: "Momo Trust Display", sans-serif;
     border-bottom:2px solid #3f2215;
@@ -138,6 +146,55 @@ footer{
     margin-top: 0;
     text-align: justify;
     margin-bottom: 8px;
+}
+
+#pag3{
+    margin: 50px 0 50px 140px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.inforestaurante{
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.inforestaurante h1{
+    color: #3f2215;
+    font-size: 18px;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+.inforestaurante h2{
+    margin-top:30px;
+    font-weight: bold;
+    color: #3f2215;
+    font-size: 18px;
+    text-align: justify;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+.btnpag3{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #3f2215;
+    background-color: #ffd18a;
+    padding: 10px 15px;
+    border: 2px solid #3f2215;
+    border-radius: 8px;
+    font-weight: 900;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.btnpag3:hover{
+    background-color: #feb745;
 }
 
 #titulo1pag2{
