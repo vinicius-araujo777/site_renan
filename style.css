@@ -88,12 +88,12 @@ footer{
     justify-content: center;
     text-align: center;
     color: white;    
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     position: relative;
 }
 
 #tituloPAG1{
-    font-size: 58px;
+    font-size: 65px;
     margin: 25px; 
     font-style: italic;
 }
@@ -163,6 +163,9 @@ footer{
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .inforestaurante h1{
@@ -172,16 +175,19 @@ footer{
 }
 
 .inforestaurante h2{
-    margin-top:30px;
+    margin-top:12px;
     font-weight: bold;
     color: #3f2215;
-    font-size: 18px;
-    text-align: justify;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.4;
     font-family: "Momo Trust Display", sans-serif;
+    letter-spacing: 0.9px;
 }
 
 .btnpag3{
-    margin-top: 30px;
+    display: block;
+    margin: auto auto 0 auto;
     text-decoration: none;
     color: #3f2215;
     background-color: #ffd18a;
@@ -189,13 +195,17 @@ footer{
     border: 2px solid #3f2215;
     border-radius: 8px;
     font-weight: 900;
-    display: inline-block;
+    width: 150px;
     transition: 0.3s ease;
 }
 
 .btnpag3:hover{
-    background-color: #feb745;
+    background-color: #fec75f;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    transform: scale(1.05);
+    transition: .25s;
 }
+
 
 #titulo1pag2{
     font-size: 35px;
@@ -231,7 +241,7 @@ footer{
     font-family: 'Momo Trust Display', sans-serif;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 }
 
 #comidatxt{
