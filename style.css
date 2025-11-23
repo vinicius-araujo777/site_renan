@@ -235,11 +235,11 @@ footer{
 }
 
 .blocospag2 h3{
-    font-weight: 200;
+    font-weight: 500;
     font-size: 25px;
     line-height: 1.6;
     color: #3f2215;
-    font-family: "Raleway",;
+    font-style: italic;
     text-align: justify;
 }
 
