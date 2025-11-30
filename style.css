@@ -359,15 +359,15 @@ footer{
 }
 
 .prato img:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
     transition: transform 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .drinks img:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
     transition: transform 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -454,6 +454,7 @@ footer{
 .eventos-section {
     margin: 80px auto;
     width: 93%;
+    height: 2400px;
 }
 
 .titulo-eventos {
