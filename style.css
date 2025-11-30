@@ -19,12 +19,34 @@ html, body {
 }
 
 footer{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
     background-color: #3f2215;
     color: #f2a84b;
+    padding: 20px 0;
+}
+.rodape{
     text-align: center;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
+    min-width: 200px;
+}
+.rodape h4{
+    margin: 0;
+    font-family: "Momo Trust Display", sans-serif;
+}
+.rodape p{
+    margin: 5px 0;
+    font-size: 16px;
+}
+.rodape a {
+    font-size: 25px;
+    padding: 10px;
+    color: #f2a84b;
+    transition: 0.2s;
+}
+#redes-rodape{
+    margin-bottom: 5px;
 }
 
 #logo{
