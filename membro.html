@@ -42,50 +42,57 @@
         </div>
     </header>
 
-    <div class="conteiner">
-        <div class="header">
-            <h2>CADASTRO</h2>
-        </div>
+    <section class="titulo-pagform">
+        <h1>Entre para o Clube HAMBRE e aproveite benefícios que só quem é da casa recebe.</h1>
+        <h2>Cadastre-se gratuitamente abaixo!</h2>
+    </section>
+
+    <section>
+        <div class="conteiner">
+            <div class="header-form">
+                <h2>CADASTRO</h2>
+            </div>
         
-        <form id="form" class="form">
-            <div class="forms">
-                <label for="username">Nome do usuário</label>
-                <input type="text" id="username" class="inputs required" placeholder="digite seu nome de usuário..." oninput="nameValidate()">
-                <small class="msgError"> NOME DE USUARIO DEVE TER NO MÍNIMO 3 CARACTERES </small>
-                <small class="msgValidade"> VALIDADO</small>
-            </div>
+            <form id="form" class="form">
+                <div class="forms">
+                    <label for="username">Nome do usuário</label>
+                    <input type="text" id="username" class="inputs required" placeholder="digite seu nome de usuário..." oninput="nameValidate()">
+                    <small class="msgError"> NOME DE USUARIO DEVE TER NO MÍNIMO 3 CARACTERES </small>
+                    <small class="msgValidade"> VALIDADO</small>
+                </div>
 
-            <div class="forms">
-                <label for="phone">Telefone</label>
-                <input type="tel" id="phone" class="inputs required" placeholder="XX-XXXXX-XXXX" oninput="telefoneValidade()">
-                <small class="msgError"> ESTE CAMPO DEVE CONTER NO MÍNIMO 11 NUMEROS</small>
-                <small class="msgValidade"> VALIDADO</small>
-            </div>
+                <div class="forms">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" class="inputs required" placeholder="XX-XXXXX-XXXX" oninput="telefoneValidade()">
+                    <small class="msgError"> ESTE CAMPO DEVE CONTER NO MÍNIMO 11 NUMEROS</small>
+                    <small class="msgValidade"> VALIDADO</small>
+                </div>
 
-            <div class="forms">
-                <label for="email">Email</label>
-                <input type="email" id="email" class="inputs required" placeholder="digite seu email..." oninput="emailValidade()">
-                <small class="msgError"> EMAIL NÃO VALIDADO</small>
-                <small class="msgValidade"> VALIDADO</small>
-            </div>
+                <div class="forms">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="inputs required" placeholder="digite seu email..." oninput="emailValidade()">
+                    <small class="msgError"> EMAIL NÃO VALIDADO</small>
+                    <small class="msgValidade"> VALIDADO</small>
+                </div>
 
-            <div class="forms">
-                <label for="password">Senha</label>
-                <input type="password" id="password" class="inputs required" placeholder="digite sua senha..." oninput="senhaValidade()">
-                <small class="msgError"> A SENHA DEVE CONTER NO MÍNIMO 6 CARACTERES</small>
-                <small class="msgValidade"> VALIDADO</small>
-            </div>
+                <div class="forms">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" class="inputs required" placeholder="digite sua senha..." oninput="senhaValidade()">
+                    <small class="msgError"> A SENHA DEVE CONTER NO MÍNIMO 6 CARACTERES</small>
+                    <small class="msgValidade"> VALIDADO</small>
+                </div>
 
-            <div class="forms">
-                <label for="password2">Confirme a senha</label>
-                <input type="password" id="password2" class="inputs required" placeholder="digite sua senha novamente..." oninput="compareSenha()">
-                <small class="msgError"> A SENHA ESTÁ DIFERENTE</small>
-                <small class="msgValidade"> VALIDADO</small>
-            </div>
+                <div class="forms">
+                    <label for="password2">Confirme a senha</label>
+                    <input type="password" id="password2" class="inputs required" placeholder="digite sua senha novamente..." oninput="compareSenha()">
+                    <small class="msgError"> A SENHA ESTÁ DIFERENTE</small>
+                    <small class="msgValidade"> VALIDADO</small>
+                </div>
             
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
         <div class="rodape">

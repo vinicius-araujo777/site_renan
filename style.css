@@ -393,22 +393,34 @@ footer{
 }
 
 
+.titulo-pagform{
+    text-align: center;
+    padding: 10px;
+    margin: 30px 40px 120px 40px;
+    font-size: 16px;
+    font-family: 'Momo Trust Display', sans-serif;
+    color: white;
+    background-color: #3f2215;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .conteiner{
     width: 1100px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin: 50px auto;
 }
 
-.header{
+.header-form{
     margin-left: 41%;
     margin-bottom: 20px;
 }
 
-.header h2{
-    margin: 0;
+.header-form h2{
+    margin: 10px 15px;
     color: #3f2215;
     font-family: 'Momo Trust Display', sans-serif;
 }
@@ -437,7 +449,7 @@ footer{
     border-radius: 10px;
     border: 1px solid #3f2215;
     font-size: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width: 90%;
     margin-left: 37px;
 }
@@ -452,6 +464,7 @@ footer{
     width: 150px;
     margin: auto;
     margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .msgError{
