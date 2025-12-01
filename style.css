@@ -396,7 +396,7 @@ footer{
 .titulo-pagform{
     text-align: center;
     padding: 10px;
-    margin: 30px 40px 120px 40px;
+    margin: 45px 40px 120px 40px;
     font-size: 16px;
     font-family: 'Momo Trust Display', sans-serif;
     color: white;
@@ -409,7 +409,7 @@ footer{
     width: 1100px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin: 50px auto;
 }
@@ -420,7 +420,7 @@ footer{
 }
 
 .header-form h2{
-    margin: 10px 15px;
+    margin: 15px auto 10px auto;
     color: #3f2215;
     font-family: 'Momo Trust Display', sans-serif;
 }
@@ -458,12 +458,13 @@ footer{
     padding: 10px;
     background-color: #3f2215;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 50px;
     font-size: 18px;
     cursor: pointer;
     width: 150px;
-    margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: 41%;
+    margin-bottom: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
