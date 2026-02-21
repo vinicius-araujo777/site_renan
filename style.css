@@ -16,6 +16,10 @@ html, body {
     background-color: #3f2215;
     justify-content: space-around;
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 footer{
@@ -112,6 +116,7 @@ footer{
     color: white;    
     font-family: 'Poppins';
     position: relative;
+    margin-top: 100px;
 }
 
 #tituloPAG1{
@@ -231,7 +236,7 @@ footer{
 
 
 .sec1pag2{
-   margin: 60px auto;
+   margin: 125px auto 100px;
    width: 85%;
    display: flex;
    flex-direction: column;
@@ -264,6 +269,10 @@ footer{
     color: #3f2215;
     font-style: italic;
     text-align: justify;
+}
+
+#apresentaçãomenu {
+    margin-top: 100px;
 }
 
 
@@ -318,6 +327,7 @@ footer{
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    transition: 0.7s ease;
 }
 
 .texto-prato{
@@ -370,6 +380,7 @@ footer{
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    transition: 0.7s ease;
 }
 
 .texto-bebida{
@@ -382,13 +393,13 @@ footer{
 
 .prato img:hover {
     transform: scale(1.04);
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .drinks img:hover {
     transform: scale(1.04);
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -396,7 +407,7 @@ footer{
 .titulo-pagform{
     text-align: center;
     padding: 10px;
-    margin: 45px 40px 120px 40px;
+    margin: 125px 40px 120px 40px;
     font-size: 16px;
     font-family: 'Momo Trust Display', sans-serif;
     color: white;
@@ -488,7 +499,7 @@ footer{
 
 
 .eventos-section {
-    margin: 80px auto;
+    margin: 200px auto;
     width: 93%;
     height: 2400px;
 }
@@ -532,11 +543,12 @@ footer{
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: 1s ease;
 }
 
 .info-evento img:hover{
     transform: scale(0.9);
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
 }
 
