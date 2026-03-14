@@ -47,7 +47,7 @@ function nameValidate() {
 
 function telefoneValidade() {
     const numero = campos[1].value.replace(/\D/g, '');
-    if (numero.length < 11)
+    if (numero.length < 13)
     {
         setError(1);
     }
